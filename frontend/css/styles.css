@@ -1,0 +1,40 @@
+﻿/* Custom Scrollbars and Typography for Nirmaya */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(45, 212, 191, 0.2);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(45, 212, 191, 0.4);
+}
+
+.markdown-body h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #2dd4bf;
+    margin-bottom: 0.4rem;
+}
+
+.markdown-body h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #94a3b8;
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.markdown-body ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.markdown-body strong {
+    color: #f1f5f9;
+}

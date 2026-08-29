@@ -1,0 +1,167 @@
+﻿[
+  {
+    "id": "KB_001",
+    "condition": "Fever and High Temperature (Bukhar)",
+    "category": "Infectious Disease / General Illness",
+    "keywords": ["fever", "bukhar", "high temperature", "chills", "garmi", "body pain", "pyrexia"],
+    "summary": "Fever is a temporary increase in body temperature, often due to an illness or infection. Normal body temperature is around 98.6°F (37°C).",
+    "symptoms": ["Elevated body temperature above 100.4°F (38°C)", "Sweating and shivering", "Headache and muscle aches", "Dehydration and weakness"],
+    "home_care": [
+      "Drink plenty of fluids like water, ORS (Oral Rehydration Salts), coconut water, and herbal tea.",
+      "Rest adequately in a cool, ventilated room.",
+      "Apply lukewarm water sponge compresses to the forehead and armpits.",
+      "Take light, easily digestible meals (khichdi, soups)."
+    ],
+    "red_flags": [
+      "Fever exceeding 103°F (39.4°C) or persisting for more than 3 consecutive days.",
+      "Fever accompanied by stiff neck, severe headache, confusion, or breathing difficulty.",
+      "Presence of unusual skin rash or petechiae."
+    ],
+    "triage_default": "MODERATE",
+    "source": "WHO Clinical Guidelines & ICMR Fever Protocol"
+  },
+  {
+    "id": "KB_002",
+    "condition": "Chest Pain and Cardiac Distress (Seene mein Dard)",
+    "category": "Cardiovascular Emergency",
+    "keywords": ["chest pain", "seene mein dard", "heart attack", "left arm pain", "tightness in chest", "shortness of breath", "angina"],
+    "summary": "Acute chest pain, pressure, or squeezing sensation radiating to the left arm, neck, or jaw can be a life-threatening cardiac event.",
+    "symptoms": ["Crushing retrosternal chest pain", "Radiation of pain to left arm, neck, back, or jaw", "Profuse cold sweating (diaphoresis)", "Severe shortness of breath", "Dizziness or fainting"],
+    "home_care": [
+      "DO NOT WAIT. Call emergency services (112 or 108 in India) immediately.",
+      "Have the person sit down in a comfortable position and stay calm.",
+      "Loosen any tight clothing around the neck and waist.",
+      "If prescribed by a cardiologist and not allergic, chew an Aspirin (300mg) while awaiting ambulance."
+    ],
+    "red_flags": [
+      "ANY severe sudden crushing chest pain with breathing difficulty is a MEDICAL EMERGENCY."
+    ],
+    "triage_default": "EMERGENCY",
+    "source": "American Heart Association (AHA) & AIIMS Emergency Medicine Guidelines"
+  },
+  {
+    "id": "KB_003",
+    "condition": "Common Cold, Cough, and Sore Throat (Khansi / Zukaam)",
+    "category": "Upper Respiratory Tract Infection",
+    "keywords": ["cold", "cough", "sore throat", "khansi", "zukaam", "runny nose", "gale mein dard", "sneezing"],
+    "summary": "Viral infection of the upper respiratory tract causing runny nose, congestion, mild cough, and throat irritation.",
+    "symptoms": ["Runny or stuffy nose", "Scratchy or sore throat", "Mild dry or productive cough", "Sneezing and low-grade fatigue"],
+    "home_care": [
+      "Steam inhalation 2-3 times daily with warm water.",
+      "Warm saline water gargling (half tsp salt in warm water) 3 times a day.",
+      "Honey with ginger or warm turmeric milk for soothing throat irritation.",
+      "Maintain adequate hydration with warm soups and liquids."
+    ],
+    "red_flags": [
+      "Cough lasting longer than 2-3 weeks.",
+      "Coughing up blood (hemoptysis) or thick rust-colored phlegm.",
+      "Severe wheezing or difficulty catching breath."
+    ],
+    "triage_default": "MILD",
+    "source": "CDC Respiratory Infection Guidelines & MoHFW India"
+  },
+  {
+    "id": "KB_004",
+    "condition": "Acute Acidity, Gastritis, and GERD (Pet mein Jalan / Acidity)",
+    "category": "Gastrointestinal",
+    "keywords": ["acidity", "heartburn", "pet mein jalan", "gas", "indigestion", "gerd", "acid reflux", "stomach burning"],
+    "summary": "Excess stomach acid production causing burning sensation in the chest (heartburn), bloating, and sour belching.",
+    "symptoms": ["Burning sensation in upper abdomen and chest", "Acid regurgitation or sour taste", "Bloating and frequent burping", "Nausea after spicy or oily meals"],
+    "home_care": [
+      "Drink cold milk or coconut water for immediate acid neutralization.",
+      "Eat smaller, more frequent meals rather than large heavy dinners.",
+      "Avoid lying down immediately after eating (keep a 2-3 hour gap).",
+      "Avoid spicy, oily, deep-fried foods, caffeine, and carbonated beverages."
+    ],
+    "red_flags": [
+      "Severe vomiting with blood or black tarry stools (melena).",
+      "Difficulty or pain while swallowing food.",
+      "Unexplained sudden weight loss with severe persistent pain."
+    ],
+    "triage_default": "MILD",
+    "source": "Indian Journal of Gastroenterology & NHS Clinical Protocol"
+  },
+  {
+    "id": "KB_005",
+    "condition": "Headache and Migraine (Sir Dard)",
+    "category": "Neurological / General",
+    "keywords": ["headache", "sir dard", "migraine", "head pain", "throbbing head", "adha sishi"],
+    "summary": "Head pain ranging from tension headaches due to stress/dehydration to throbbing unilateral migraines with light sensitivity.",
+    "symptoms": ["Dull aching tension or pulsating one-sided pain", "Sensitivity to bright light and loud sounds (photophobia/phonophobia)", "Mild nausea", "Neck or shoulder muscle stiffness"],
+    "home_care": [
+      "Rest in a quiet, dark room with eyes closed.",
+      "Apply a cold or warm pack to the forehead or back of the neck.",
+      "Drink 2-3 glasses of water to rule out dehydration.",
+      "Practice gentle neck stretching and deep breathing exercises."
+    ],
+    "red_flags": [
+      "Sudden, severe 'thunderclap' headache (worst headache of your life).",
+      "Headache following a head injury or trauma.",
+      "Headache with blurred vision, speech slurring, or weakness in arms/legs (Stroke signs)."
+    ],
+    "triage_default": "MILD",
+    "source": "International Headache Society & ICMR Neurology Guidelines"
+  },
+  {
+    "id": "KB_006",
+    "condition": "Dengue Fever and Platelet Management (Dengue)",
+    "category": "Vector-Borne Disease",
+    "keywords": ["dengue", "dengue bukhar", "mosquito bite", "platelet", "bone breaking fever", "eye pain"],
+    "summary": "Mosquito-borne viral infection transmitted by Aedes mosquitoes, characterized by high fever, severe retro-orbital pain, and joint aches.",
+    "symptoms": ["Sudden high fever (104°F/40°C)", "Severe pain behind the eyes", "Severe joint and muscle pain ('break-bone fever')", "Skin rash appearing 2-5 days after fever"],
+    "home_care": [
+      "Complete bed rest and aggressive fluid intake (ORS, papaya leaf juice extract, coconut water, fresh fruit juices).",
+      "Take only Paracetamol for fever; AVOID Aspirin, Ibuprofen, and NSAIDs as they increase bleeding risks.",
+      "Regular monitoring of Complete Blood Count (CBC) and platelet count."
+    ],
+    "red_flags": [
+      "Bleeding from gums, nose, or blood in vomit/stools.",
+      "Severe continuous abdominal pain or persistent vomiting.",
+      "Sudden drop in platelet count below 50,000 / μL."
+    ],
+    "triage_default": "MODERATE",
+    "source": "National Vector Borne Disease Control Programme (NVBDCP) & WHO"
+  },
+  {
+    "id": "KB_007",
+    "condition": "Type 2 Diabetes and Blood Sugar Management (Madhumeh / Sugar)",
+    "category": "Endocrine & Metabolic",
+    "keywords": ["diabetes", "sugar", "madhumeh", "high blood sugar", "frequent urination", "excessive thirst"],
+    "summary": "Metabolic disorder characterized by elevated blood glucose levels due to insulin resistance or insufficient insulin production.",
+    "symptoms": ["Increased thirst (polydipsia)", "Frequent urination (polyuria), especially at night", "Unexplained fatigue and weight loss", "Slow-healing cuts and recurrent infections"],
+    "home_care": [
+      "Follow a low-glycemic, high-fiber diet rich in green vegetables, whole grains, and lean proteins.",
+      "Engage in at least 30 minutes of moderate aerobic exercise daily (brisk walking).",
+      "Regularly monitor fasting and post-prandial blood sugar levels.",
+      "Never skip prescribed anti-diabetic medications or insulin doses."
+    ],
+    "red_flags": [
+      "Blood sugar reading above 350 mg/dL or below 60 mg/dL (Hypoglycemia).",
+      "Fruity breath odor, confusion, rapid deep breathing (Diabetic Ketoacidosis).",
+      "Non-healing foot ulcers with numbness or discoloration."
+    ],
+    "triage_default": "MODERATE",
+    "source": "Research Society for the Study of Diabetes in India (RSSDI) & ADA"
+  },
+  {
+    "id": "KB_008",
+    "condition": "Acute Diarrhea, Vomiting, and Dehydration (Dast / Ulti)",
+    "category": "Gastrointestinal Infection",
+    "keywords": ["diarrhea", "dast", "vomiting", "ulti", "loose motion", "food poisoning", "dehydration"],
+    "summary": "Frequent loose watery stools and nausea usually caused by viral, bacterial, or foodborne gastrointestinal infections.",
+    "symptoms": ["Watery loose stools (>3 times/day)", "Abdominal cramps and bloating", "Nausea and vomiting", "Dry mouth, sunken eyes, and dark urine"],
+    "home_care": [
+      "Oral Rehydration Solution (ORS) is the single most critical treatment — sip small amounts continuously.",
+      "Consume the BRAT diet: Bananas, Rice, Applesauce, Toast / Curd rice.",
+      "Zinc supplementation for 14 days under medical advice.",
+      "Avoid milk products, sugary drinks, fried foods, and caffeine."
+    ],
+    "red_flags": [
+      "Inability to keep any liquids down for over 12 hours.",
+      "Presence of blood or mucus in stools (Dysentery).",
+      "Extreme lethargy, no urination for >8 hours, or fainting spells."
+    ],
+    "triage_default": "MODERATE",
+    "source": "WHO Diarrhoeal Disease Factsheet & UNICEF/ICMR Protocol"
+  }
+]
