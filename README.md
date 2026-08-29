@@ -1,4 +1,4 @@
-﻿# 🌿 Nirmaya — Grounded AI Health Chatbot (RAG Medical Assistant)
+# 🌿 Nirmaya — Grounded AI Health Chatbot (RAG Medical Assistant)
 ### *Smart India Hackathon (SIH) Project • Multilingual Clinical Guidance & Triage*
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python)
@@ -17,21 +17,21 @@
 
 ```mermaid
 graph TD
-    Patient([Patient / User]) --> UI[Nirmaya Glassmorphism Web App / CLI]
-    UI --> API[FastAPI Medical Gateway]
+    Patient(["Patient / User"]) --> UI["Nirmaya Glassmorphism Web App / CLI"]
+    UI --> API["FastAPI Medical Gateway"]
     
-    subgraph RAG & Clinical Intelligence Layer
-        API --> NLP[Multilingual Entity & Language Detector (EN/HI/BN)]
-        NLP --> Triage[Emergency & Severity Triage Classifier]
-        NLP --> VectorStore[TF-IDF & Cosine Similarity Vector Store]
-        VectorStore --> KB[(Verified Clinical Knowledge Base: WHO / ICMR / CDC)]
-        VectorStore --> Grounding[Grounded Prompt Assembler]
-        Triage --> Hotlines[Emergency Helpline Engine (112 / 108 / 104)]
-        Grounding --> Output[Structured Clinical Response + Sources + Disclaimers]
+    subgraph RAGLayer ["RAG & Clinical Intelligence Layer"]
+        API --> NLP["Multilingual Entity & Language Detector (EN / HI / BN)"]
+        NLP --> Triage["Emergency & Severity Triage Classifier"]
+        NLP --> VectorStore["TF-IDF & Cosine Similarity Vector Store"]
+        VectorStore --> KB[("Verified Clinical Knowledge Base: WHO / ICMR / CDC")]
+        VectorStore --> Grounding["Grounded Prompt Assembler"]
+        Triage --> Hotlines["Emergency Helpline Engine (112 / 108 / 104)"]
+        Grounding --> Output["Structured Clinical Response + Sources + Disclaimers"]
     end
     
     Output --> UI
-    Output --> PDF[Pre-Consultation Physician Summary Exporter]
+    Output --> PDF["Pre-Consultation Physician Summary Exporter"]
 ```
 
 ---
